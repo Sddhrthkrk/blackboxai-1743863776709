@@ -1,0 +1,30 @@
+name: sunrise_health
+description: Sunrise Health Center Management System (Demo)
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  table_calendar: ^3.0.8
+  pdf: ^3.10.4
+  path_provider: ^2.0.15
+  http: ^0.13.5
+  crypto: ^3.0.2
+  intl: ^0.18.1
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/data/
